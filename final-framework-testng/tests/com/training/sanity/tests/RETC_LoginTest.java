@@ -12,17 +12,16 @@ import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
 import com.training.pom.LoginPOM;
-import com.training.pom.RETC_LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
-public class LoginTests {
+public class RETC_LoginTest {
 
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
-	
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();
